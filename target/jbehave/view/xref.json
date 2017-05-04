@@ -1,0 +1,779 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/consult_dictionary/LookupADefinition.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "",
+          "iWantTo": "",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Авторизация на Mail.ru , изменение в личных настройках имени и фамилии пользователя.\r\n          Проверка введеных пользователем данных.",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given пользователь открывает главную станицу mail.ru",
+              "When вводим логин: 'vladnaldin'",
+              "When вводим пароль: 'crimetime111'",
+              "When выполняем вход в аккаунт",
+              "When выбираем виджет настроек",
+              "When переходим в настройку личных даных",
+              "When вводим имя пользователя:'Vlad'",
+              "When вводим  фамилию пользователя:'Naldin'",
+              "When сохраняем изменения",
+              "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'"
+            ]
+          }
+        ],
+        "name": "LookupADefinition.story"
+      },
+      "localizedNarrative": "As a \nI want to \nSo that ",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Авторизация на Mail.ru , изменение в личных настройках имени и фамилии пользователя.\r\n          Проверка введеных пользователем данных.",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given пользователь открывает главную станицу mail.ru",
+              "When вводим логин: 'vladnaldin'",
+              "When вводим пароль: 'crimetime111'",
+              "When выполняем вход в аккаунт",
+              "When выбираем виджет настроек",
+              "When переходим в настройку личных даных",
+              "When вводим имя пользователя:'Vlad'",
+              "When вводим  фамилию пользователя:'Naldin'",
+              "When сохраняем изменения",
+              "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given пользователь открывает главную станицу mail.ru",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given пользователь открывает главную станицу mail.ru",
+                  "durationInMillis": 4960
+                },
+                {
+                  "step": "When вводим логин: 'vladnaldin'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим логин: 'vladnaldin'",
+                  "durationInMillis": 907
+                },
+                {
+                  "step": "When вводим пароль: 'crimetime111'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим пароль: 'crimetime111'",
+                  "durationInMillis": 654
+                },
+                {
+                  "step": "When выполняем вход в аккаунт",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When выполняем вход в аккаунт",
+                  "durationInMillis": 4350
+                },
+                {
+                  "step": "When выбираем виджет настроек",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When выбираем виджет настроек",
+                  "durationInMillis": 1341
+                },
+                {
+                  "step": "When переходим в настройку личных даных",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When переходим в настройку личных даных",
+                  "durationInMillis": 4179
+                },
+                {
+                  "step": "When вводим имя пользователя:'Vlad'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим имя пользователя:'Vlad'",
+                  "durationInMillis": 814
+                },
+                {
+                  "step": "When вводим  фамилию пользователя:'Naldin'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим  фамилию пользователя:'Naldin'",
+                  "durationInMillis": 657
+                },
+                {
+                  "step": "When сохраняем изменения",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When сохраняем изменения",
+                  "durationInMillis": 2805
+                },
+                {
+                  "step": "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'",
+                  "durationInMillis": 1204
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Авторизация на Mail.ru , изменение в личных настройках имени и фамилии пользователя.\r\n          Проверка введеных пользователем данных.",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given пользователь открывает главную станицу mail.ru",
+                "When вводим логин: 'vladnaldin'",
+                "When вводим пароль: 'crimetime111'",
+                "When выполняем вход в аккаунт",
+                "When выбираем виджет настроек",
+                "When переходим в настройку личных даных",
+                "When вводим имя пользователя:'Vlad'",
+                "When вводим  фамилию пользователя:'Naldin'",
+                "When сохраняем изменения",
+                "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 28508
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Авторизация на Mail.ru , изменение в личных настройках имени и фамилии пользователя.\r\n          Проверка введеных пользователем данных.",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given пользователь открывает главную станицу mail.ru",
+          "When вводим логин: 'vladnaldin'",
+          "When вводим пароль: 'crimetime111'",
+          "When выполняем вход в аккаунт",
+          "When выбираем виджет настроек",
+          "When переходим в настройку личных даных",
+          "When вводим имя пользователя:'Vlad'",
+          "When вводим  фамилию пользователя:'Naldin'",
+          "When сохраняем изменения",
+          "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/LookupADefinition.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given пользователь открывает главную станицу mail.ru",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given пользователь открывает главную станицу mail.ru",
+              "durationInMillis": 4960
+            },
+            {
+              "step": "When вводим логин: 'vladnaldin'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим логин: 'vladnaldin'",
+              "durationInMillis": 907
+            },
+            {
+              "step": "When вводим пароль: 'crimetime111'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим пароль: 'crimetime111'",
+              "durationInMillis": 654
+            },
+            {
+              "step": "When выполняем вход в аккаунт",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When выполняем вход в аккаунт",
+              "durationInMillis": 4350
+            },
+            {
+              "step": "When выбираем виджет настроек",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When выбираем виджет настроек",
+              "durationInMillis": 1341
+            },
+            {
+              "step": "When переходим в настройку личных даных",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When переходим в настройку личных даных",
+              "durationInMillis": 4179
+            },
+            {
+              "step": "When вводим имя пользователя:'Vlad'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим имя пользователя:'Vlad'",
+              "durationInMillis": 814
+            },
+            {
+              "step": "When вводим  фамилию пользователя:'Naldin'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим  фамилию пользователя:'Naldin'",
+              "durationInMillis": 657
+            },
+            {
+              "step": "When сохраняем изменения",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When сохраняем изменения",
+              "durationInMillis": 2805
+            },
+            {
+              "step": "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'",
+              "durationInMillis": 1204
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Авторизация на Mail.ru , изменение в личных настройках имени и фамилии пользователя.\r\n          Проверка введеных пользователем данных.",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given пользователь открывает главную станицу mail.ru",
+            "When вводим логин: 'vladnaldin'",
+            "When вводим пароль: 'crimetime111'",
+            "When выполняем вход в аккаунт",
+            "When выбираем виджет настроек",
+            "When переходим в настройку личных даных",
+            "When вводим имя пользователя:'Vlad'",
+            "When вводим  фамилию пользователя:'Naldin'",
+            "When сохраняем изменения",
+            "Then снова открываем виджет настроек и сверяем введенные данные 'Vlad Naldin'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}
